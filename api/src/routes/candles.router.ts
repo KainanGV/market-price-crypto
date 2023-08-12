@@ -1,0 +1,2 @@
+// import { fastify } from "../app";
+

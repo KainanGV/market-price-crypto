@@ -1,0 +1,31 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only --poll --ignore-watch node_modules src/server.ts"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.3.0",
+    "amqplib": "^0.10.3",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.21.0",
+    "fastify-socket.io": "^4.0.0",
+    "mongoose": "^7.4.2",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.10.1",
+    "@types/body-parser": "^1.19.2",
+    "@types/cors": "^2.8.13",
+    "@types/mongoose": "^5.11.97",
+    "@types/morgan": "^1.9.4",
+    "@types/node": "^20.4.9",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "types-fastify-socket.io": "^0.0.1",
+    "typescript": "^5.1.6"
+  }
+}
